@@ -1,4 +1,3 @@
-import { SSRProvider } from '@react-aria/ssr';
 import '../styles/globals.css'
 import '../styles/responsive.css'
 import Navbar from '../comps/home/Navbar'
@@ -11,31 +10,26 @@ import { useEffect } from 'react';
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
+  if(router.pathname !=  "/login" && !router.pathname.match("/admin")   )
+  return (
+    <>
+      <Navbar/>
+        <Component {...pageProps} />
+      <Footer/>
+       </>
+  )
   
-  if (router.pathname !== '/login' && !router.pathname.match('/admin')) {
-    return (
-      <SSRProvider>
-        <>
-          <Navbar />
-          <Component {...pageProps} />
-          <Footer />
-        </>
-      </SSRProvider>
-    );
-  } else {
+  else {
     // useEffect(() => {
     //   import ('bootstrap/dist/js/bootstrap.js')
     // }, []);
-    return (
-      <SSRProvider>
+      return (
         <>
-          <div className='bg-white'>
-            <Component {...pageProps} />
-          </div>
-        </>
-      </SSRProvider>
-    );
+        <div className='bg-white'>
+          <Component {...pageProps} />
+        </div>
+       </>
+      )
   }
 }
-
-export default MyApp;
+export default MyApp

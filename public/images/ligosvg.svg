@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 612 792">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        font-family: aAreaKilometer50, aAreaKilometer50;
+        font-size: 23.47px;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="m212.57,292.18h-85.65c10.71,9.5,24.79,15.28,40.2,15.28h85.65c-10.72-9.5-24.79-15.28-40.2-15.28Z"/>
+  <path class="cls-1" d="m358.07,384.75h-51.5v-118.96h-41.79v42.72c5.3.99,10.42,2.62,15.28,4.87v-32.32h11.23v53.88c-9.78-10.04-23.44-16.27-38.56-16.27h0v.02h-83.01c10.71,9.5,24.79,15.28,40.2,15.28h42.81v-.02c21.22,0,38.48,17.22,38.56,38.42v8.04s0,0,0,0v19.62h66.77v11.26h-78.04v-38.75c0-15.08-12.22-27.3-27.3-27.3h-40.21c10.71,9.49,24.88,15.28,40.28,15.28,6.59.04,11.95,5.42,11.95,12.02v54h20.18v.04h88.42v-41.84h-15.29Z"/>
+  <text class="cls-2" transform="translate(264.6 455.47) scale(.95 1)"><tspan x="0" y="0">LIGO G</tspan><tspan class="cls-3" x="68.17" y="0">R</tspan><tspan x="80.87" y="0">OUP</tspan></text>
+</svg>
